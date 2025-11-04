@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid "%(number)s %(type)s"
 msgstr "%(number)s %(type)s"
@@ -32,7 +32,7 @@ msgstr "Aktivan"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid "All lines passed filtering"
 msgstr "Sve linije su prošle filtriranje"
@@ -44,7 +44,6 @@ msgstr "API osnova"
 
 #. module: account_statement_import_online
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_provider_filter
-#: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_provider_form
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -95,7 +94,6 @@ msgstr "Preduzeće na koje se odnose finansijski nalozi"
 
 #. module: account_statement_import_online
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_provider_form
-#: model_terms:ir.ui.view,arch_db:account_statement_import_online.view_account_journal_form
 msgid "Configuration"
 msgstr "Konfiguracija"
 
@@ -108,19 +106,15 @@ msgstr "Kreiraj izvod"
 #: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__create_statement
 msgid ""
 "Create statements for the downloaded transactions automatically or not."
-msgstr ""
+msgstr "Kreiraj izvode za preuzete transakcije automatski ili ne."
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__create_uid
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_debug__create_uid
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__create_date
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_debug__create_date
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_wizard__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -141,19 +135,19 @@ msgstr "Dan(i)"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__display_name
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_debug__display_name
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_wizard__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid ""
 "Failed to obtain statement data for period since {since} until {until}: "
 "{exception}. See server logs for more details."
 msgstr ""
+"Neuspješno dobavljanje podataka izvoda za period od {since} do {until}: "
+"{exception}. Pogledajte server logove za više detalja."
 
 #. module: account_statement_import_online
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_pull_wizard_form
@@ -187,8 +181,6 @@ msgstr "Sat(i)"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__id
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_debug__id
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_wizard__id
 msgid "ID"
 msgstr "ID"
 
@@ -209,7 +201,7 @@ msgstr "Uvezi transakcije"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid "Inactive"
 msgstr "Neaktivan"
@@ -226,14 +218,13 @@ msgstr "Pratilac"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid "Issue with Online Bank Statement self"
 msgstr "Problem sa online bankovnim izvodom"
 
 #. module: account_statement_import_online
 #: model:ir.model,name:account_statement_import_online.model_account_journal
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__journal_id
 msgid "Journal"
 msgstr "Vrsta naloga"
 
@@ -244,22 +235,16 @@ msgstr "Ključ"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider____last_update
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_debug____last_update
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__write_uid
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_debug__write_uid
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__write_date
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_debug__write_date
-#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -295,10 +280,10 @@ msgstr "Mjesec"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__name
@@ -307,7 +292,7 @@ msgstr "Naziv:"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/tests/test_account_bank_statement_import_online.py:0
+#: code:addons/account_statement_import_online/tests/test_account_bank_statement_import_online.py
 #, python-format
 msgid "Names and dates for statements found: %(statements)s"
 msgstr "Imena i datumi za pronađene izvode: %(statements)s"
@@ -319,7 +304,7 @@ msgstr "Sljedeće planirano povlačenje"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/tests/test_account_bank_statement_import_online.py:0
+#: code:addons/account_statement_import_online/tests/test_account_bank_statement_import_online.py
 #, python-format
 msgid "No statements found in journal"
 msgstr "Nema pronađenih izvoda u dnevniku"
@@ -346,31 +331,30 @@ msgstr "Broj poruka sa greškama pri isporuci"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid ""
 "Of %(lines_provided)s lines provided, %(before)s where before %(since)s, "
 "%(after)s where on or after %(until)sand %(duplicate)s where not unique."
 msgstr ""
+"Od %(lines_provided)s dostavljenih linija, %(before)s je bilo prije "
+"%(since)s, %(after)s je bilo na ili nakon %(until)s i %(duplicate)s nije "
+"bilo jedinstveno."
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/account_journal.py:0
+#: code:addons/account_statement_import_online/models/account_journal.py
 #, python-format
 msgid "Online (OCA)"
 msgstr "Online (OCA)"
 
 #. module: account_statement_import_online
 #: model:ir.model,name:account_statement_import_online.model_online_bank_statement_provider
-#: model:ir.model.fields,field_description:account_statement_import_online.field_account_journal__online_bank_statement_provider
-#: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_provider_form
 msgid "Online Bank Statement Provider"
 msgstr "Pružalac online bankovnih izvoda"
 
 #. module: account_statement_import_online
 #: model:ir.actions.act_window,name:account_statement_import_online.online_bank_statement_provider_action
-#: model:ir.ui.menu,name:account_statement_import_online.online_bank_statement_provider_menu
-#: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_provider_filter
 msgid "Online Bank Statement Providers"
 msgstr "Pružaoci online bankovnih izvoda"
 
@@ -386,12 +370,14 @@ msgstr "Čarobnjak povlačenja online bankovnih izvoda"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid ""
 "Online Bank Statement provider \"%(name)s\" failed to obtain statement data "
 "since %(since)s until %(until)s"
 msgstr ""
+"Provajder online bankovnog izvoda \"%(name)s\" nije uspio dobaviti podatke "
+"izvoda od %(since)s do %(until)s"
 
 #. module: account_statement_import_online
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online.view_account_journal_form
@@ -435,19 +421,17 @@ msgstr "Davatelj"
 
 #. module: account_statement_import_online
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_provider_form
-#: model_terms:ir.ui.view,arch_db:account_statement_import_online.view_account_journal_form
 msgid "Pull Online Bank Statement"
 msgstr "Povuci online bankarski izvod"
 
 #. module: account_statement_import_online
 #: model:ir.actions.server,name:account_statement_import_online.ir_cron_account_pull_online_bank_statements_ir_actions_server
-#: model:ir.cron,cron_name:account_statement_import_online.ir_cron_account_pull_online_bank_statements
 msgid "Pull Online Bank Statements"
 msgstr "Povuci online bankovne izvode"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid "Pulling online bank statements of: %(provider_names)s"
 msgstr "Povlačenje online bankovnih izvoda: %(provider_names)s"
@@ -469,14 +453,14 @@ msgstr "Planirano povlačenje"
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid "Scheduled pull of online bank statements complete."
 msgstr "Planirano povlačenje online bankovnih izvoda završeno."
 
 #. module: account_statement_import_online
 #. odoo-python
-#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py
 #, python-format
 msgid "Scheduled pull of online bank statements..."
 msgstr "Planirano povlačenje online bankovnih izvoda..."
@@ -493,7 +477,6 @@ msgstr "Interval planiranog ažuriranja mora biti veći od nule!"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__service
-#: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_provider_filter
 msgid "Service"
 msgstr "Usluga"
 
@@ -523,6 +506,8 @@ msgid ""
 "Timezone to convert transaction timestamps to prior being saved into a "
 "statement."
 msgstr ""
+"Vremenska zona za konverziju vremenskih oznaka transakcija prije spremanja u"
+" izvod."
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_wizard__date_until

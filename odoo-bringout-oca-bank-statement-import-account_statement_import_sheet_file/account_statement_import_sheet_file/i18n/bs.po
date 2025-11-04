@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
 #, python-format
 msgid "%(code)s: %(filename)s"
 msgstr "%(code)s: %(filename)s"
@@ -27,6 +27,9 @@ msgid ""
 "                                You can concatenate multiple columns in the file into the same field, indicating the\n"
 "                                column names or numbers separated by comma."
 msgstr ""
+"<span class=\"fa fa-info-circle\"/> Dodajte nazive kolona ili broj kolone (kada datoteka nema zaglavlje).\n"
+"                                Možete spojiti više kolona u datoteci u isto polje, navodeći\n"
+"                                nazive kolona ili brojeve odvojene zarezom."
 
 #. module: account_statement_import_sheet_file
 #: model_terms:ir.ui.view,arch_db:account_statement_import_sheet_file.account_statement_import_sheet_mapping_tree
@@ -34,6 +37,8 @@ msgid ""
 "<span class=\"fa fa-info-circle\"/> indicate the column number in the "
 "Columns section. The first column is 0."
 msgstr ""
+"<span class=\"fa fa-info-circle\"/> navedite broj kolone u sekciji Kolone. "
+"Prva kolona je 0."
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__amount_type__absolute_value
@@ -42,7 +47,7 @@ msgstr "Apsolutna vrednost"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
 #, python-format
 msgid "Account: %s; "
 msgstr "Račun: %s; "
@@ -64,7 +69,7 @@ msgstr "Tip iznosa"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import.py
 #, python-format
 msgid "Bad file/mapping: "
 msgstr "Loša datoteka/mapiranje: "
@@ -106,7 +111,7 @@ msgstr "Parser tabele uvoza bankovnog izvoda"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
 #, python-format
 msgid "Bank: %s; "
 msgstr "Banka: %s; "
@@ -123,13 +128,11 @@ msgstr "Kolone"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__create_uid
-#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_parser__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__create_date
-#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_parser__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -210,7 +213,6 @@ msgstr "Kolona opisa"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__display_name
-#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_parser__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -246,7 +248,6 @@ msgstr "Horizontalni razmaci za ignorisanje pre početka parsiranja"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__id
-#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_parser__id
 msgid "ID"
 msgstr "ID"
 
@@ -261,6 +262,8 @@ msgid ""
 "In case statement is multi-currency, column to get currency of transaction "
 "from"
 msgstr ""
+"U slučaju da je izvod u više valuta, kolona iz koje se uzima valuta "
+"transakcije"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__original_currency_column
@@ -268,6 +271,8 @@ msgid ""
 "In case statement provides original currency for transactions with automatic"
 " currency conversion, column to get original currency of transaction from"
 msgstr ""
+"U slučaju da izvod pruža originalnu valut za transakcije sa automatskom "
+"konverzijom valute, kolona iz koje se uzima originalna valuta transakcije"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__original_amount_column
@@ -276,6 +281,9 @@ msgid ""
 " currency conversion, column to get original transaction amount in original "
 "transaction currency from"
 msgstr ""
+"U slučaju da izvod pruža originalnu valutu za transakcije sa automatskom "
+"konverzijom valute, kolona iz koje se uzima originalni iznos transakcije u "
+"originalnoj valuti transakcije"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_inverse_sign
@@ -284,6 +292,9 @@ msgid ""
 " the inverse sign. By setting this flag during the upload the amounts will "
 "be inverted in sign."
 msgstr ""
+"U nekim slučajevima, kao što su izvodi kreditnih kartica, iznosi su izraženi"
+" sa obrnutim predznakom. Postavljanjem ove oznake tokom učitavanja, iznosi "
+"će biti obrnuti po predznaku."
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_inverse_sign
@@ -302,29 +313,25 @@ msgstr "Vrsta naloga"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping____last_update
-#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_parser____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__write_uid
-#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_parser__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__write_date
-#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_parser__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
-#: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__delimiter__n/a
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
 #, python-format
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__name
@@ -333,7 +340,7 @@ msgstr "Naziv:"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
 #, python-format
 msgid "No valid encoding was found for the attached file"
 msgstr "Nije pronađeno važeće kodiranje za priloženu datoteku"
@@ -350,7 +357,7 @@ msgstr "Kolona pomaka"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py
 #, python-format
 msgid "Offsets cannot be negative"
 msgstr "Pomaci ne mogu biti negativni"
@@ -391,6 +398,8 @@ msgid ""
 "Set the Footer lines number.Used in some csv/xlsx file that integrate meta "
 "data inlast lines."
 msgstr ""
+"Postavite broj redova podnožja. Koristi se u nekim csv/xlsx datotekama koje "
+"sadrže meta podatke u posljednjim redovima."
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__header_lines_skip_count
@@ -415,6 +424,10 @@ msgid ""
 "(absolute value + indicate sign)\n"
 "Distinct Credit/debit Column: use a distinct column for debit and credit"
 msgstr ""
+"Jednostavna vrijednost: koristi označeni iznos u koloni iznosa\n"
+"Apsolutna vrijednost: koristi istu kolonu za duguje i potražuje\n"
+"(apsolutna vrijednost + oznaka predznaka)\n"
+"Odvojene kolone duguje/potražuje: koristi zasebnu kolonu za duguje i potražuje"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__skip_empty_lines
@@ -428,7 +441,6 @@ msgstr "Mapa uvoza izvoda"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.actions.act_window,name:account_statement_import_sheet_file.action_statement_import_sheet_report_mappings
-#: model:ir.ui.menu,name:account_statement_import_sheet_file.menu_statement_import_sheet_mapping
 msgid "Statement Sheet Mappings"
 msgstr "Mapiranja tabele izvoda"
 
@@ -464,7 +476,7 @@ msgstr "Tradicionalni kineski (big5)"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
 #, python-format
 msgid "Transaction ID: %s; "
 msgstr "ID transakcije: %s; "
@@ -501,26 +513,32 @@ msgstr "Jedinstvena kolona ID transakcije"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py
 #, python-format
 msgid "Use amount_column if you have set Amount type = 'Single value'"
-msgstr "Koristite amount_column ako ste postavili Tip iznosa = 'Pojedinačna vrednost'"
+msgstr ""
+"Koristite amount_column ako ste postavili Tip iznosa = 'Pojedinačna "
+"vrednost'"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py
 #, python-format
 msgid ""
 "Use amount_debit_column and amount_credit_column if you have set Amount type"
 " = 'Distinct Credit/debit Column'"
 msgstr ""
+"Koristite amount_debit_column i amount_credit_column ako ste postavili Tip "
+"iznosa = 'Odvojene kolone duguje/potražuje'"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py:0
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py
 #, python-format
 msgid "Use debit_credit_column if you have set Amount type = 'Absolute value'"
-msgstr "Koristite debit_credit_column ako ste postavili Tip iznosa = 'Apsolutna vrednost'"
+msgstr ""
+"Koristite debit_credit_column ako ste postavili Tip iznosa = 'Apsolutna "
+"vrednost'"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__debit_credit_column
@@ -529,6 +547,9 @@ msgid ""
 "Some statement formats use absolute amount value and indicate sign\n"
 "of the transaction by specifying if it was a debit or a credit one"
 msgstr ""
+"Koristi se ako je tip iznosa \"Apsolutna vrijednost\"\n"
+"Neki formati izvoda koriste apsolutnu vrijednost iznosa i označavaju predznak\n"
+"transakcije navođenjem da li je to duguje ili potražuje"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_column
@@ -537,6 +558,9 @@ msgid ""
 "Amount of transaction in journal's currency\n"
 "Some statement formats use credit/debit columns"
 msgstr ""
+"Koristi se ako je tip iznosa \"Jednostavna vrijednost\" ili \"Apsolutna vrijednost\"\n"
+"Iznos transakcije u valuti dnevnika\n"
+"Neki formati izvoda koriste kolone potražuje/duguje"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__credit_value
@@ -564,24 +588,21 @@ msgid ""
 "When this occurs please indicate the column number in the Columns section "
 "instead of the column name, considering that the first column is 0"
 msgstr ""
+"Kada se ovo dogodi, molimo navedite broj kolone u sekciji Kolone umjesto "
+"naziva kolone, imajući u vidu da je prva kolona 0"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__delimiter__comma
-#: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__float_decimal_sep__comma
-#: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__float_thousands_sep__comma
 msgid "comma (,)"
 msgstr "zarez (,)"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__delimiter__dot
-#: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__float_decimal_sep__dot
-#: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__float_thousands_sep__dot
 msgid "dot (.)"
 msgstr "tačka (.)"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__float_decimal_sep__none
-#: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__float_thousands_sep__none
 msgid "none"
 msgstr "nema"
 
@@ -603,4 +624,4 @@ msgstr "razmak"
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__delimiter__tab
 msgid "tab"
-msgstr "tab"
+msgstr "tabulator"

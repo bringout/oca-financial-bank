@@ -25,31 +25,34 @@ msgstr "Uvoz bankovnog izvoda"
 
 #. module: account_statement_import_ofx_by_acctid
 #: model:ir.model.fields,field_description:account_statement_import_ofx_by_acctid.field_account_setup_bank_manual_config__acctid
-#: model:ir.model.fields,field_description:account_statement_import_ofx_by_acctid.field_res_partner_bank__acctid
 msgid "OFX ACCTID"
 msgstr "OFX ACCTID"
 
 #. module: account_statement_import_ofx_by_acctid
 #: model:ir.model.fields,field_description:account_statement_import_ofx_by_acctid.field_account_setup_bank_manual_config__sanitized_acctid
-#: model:ir.model.fields,field_description:account_statement_import_ofx_by_acctid.field_res_partner_bank__sanitized_acctid
 msgid "Sanitized OFX ACCTID"
 msgstr "Očišćen OFX ACCTID"
 
 #. module: account_statement_import_ofx_by_acctid
 #: model:ir.model.fields,help:account_statement_import_ofx_by_acctid.field_account_setup_bank_manual_config__acctid
-#: model:ir.model.fields,help:account_statement_import_ofx_by_acctid.field_res_partner_bank__acctid
 msgid ""
 "Technical account identifier (tag <ACCTID>) exactly as found in OFX files; "
 "stored separately because it can differ from the usual account number and is"
 " used only for matching imported bank statements."
 msgstr ""
+"Tehnički identifikator konta (tag <ACCTID>) tačno kao što se nalazi u OFX "
+"datotekama; pohranjen odvojeno jer se može razlikovati od uobičajenog broja "
+"konta i koristi se samo za uparivanje uvezenih bankovnih izvoda."
 
 #. module: account_statement_import_ofx_by_acctid
 #. odoo-python
-#: code:addons/account_statement_import_ofx_by_acctid/wizards/account_statement_import.py:0
+#: code:addons/account_statement_import_ofx_by_acctid/wizards/account_statement_import.py
 #, python-format
 msgid ""
 "The journal found for the file is not consistent with the selected journal. "
 "You should use the proper journal or use the generic button on the top of "
 "the Accounting Dashboard"
 msgstr ""
+"Dnevnik pronađen za datoteku nije u skladu sa odabranim dnevnikom. Trebali "
+"biste koristiti pravi dnevnik ili koristiti generičko dugme na vrhu "
+"računovodstvene kontrolne table"

@@ -25,7 +25,7 @@ msgstr "Dodaj liniju balansa"
 
 #. module: account_statement_import_camt54
 #. odoo-python
-#: code:addons/account_statement_import_camt54/models/parser.py:0
+#: code:addons/account_statement_import_camt54/models/parser.py
 #, python-format
 msgid ""
 "Config parameter `isr_partner_ref` is wrong.\n"
@@ -33,10 +33,14 @@ msgid ""
 "`i` and `n` must be integers.\n"
 "e.g. \"13,6\""
 msgstr ""
+"Konfiguracijski parametar `isr_partner_ref` je pogrešan.\n"
+"Mora biti u formatu `i[,n]` \n"
+"`i` i `n` moraju biti cijeli brojevi.\n"
+"npr. \"13,6\""
 
 #. module: account_statement_import_camt54
 #. odoo-python
-#: code:addons/account_statement_import_camt54/models/parser.py:0
+#: code:addons/account_statement_import_camt54/models/parser.py
 #, python-format
 msgid ""
 "Config parameter `isr_partner_ref` is wrong.\n"
@@ -45,6 +49,11 @@ msgid ""
 "`n` the number of digit in the reference, by default 6.\n"
 "e.g. \"13,6\""
 msgstr ""
+"Konfiguracijski parametar `isr_partner_ref` je pogrešan.\n"
+"Mora biti u formatu `i[,n]` \n"
+"gdje je `i` pozicija prve cifre i\n"
+"`n` broj cifara u referenci, podrazumijevano 6.\n"
+"npr. \"13,6\""
 
 #. module: account_statement_import_camt54
 #: model:ir.model.fields,help:account_statement_import_camt54.field_account_journal__transfer_line

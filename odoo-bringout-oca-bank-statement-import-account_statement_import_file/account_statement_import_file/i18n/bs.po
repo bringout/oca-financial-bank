@@ -13,33 +13,38 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid "%d transactions had already been imported and were ignored."
-msgstr "%d transakcije koje su već uvežene i sad su preskočene."
+msgstr "%d transakcije su već importovane, stoga ignorisane."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid "1 transaction had already been imported and was ignored."
-msgstr "1 transakcija je već uvežena i sad je preskočena."
+msgstr "1 transakcije je već importovana, stoga ignorisana."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model_terms:ir.ui.view,arch_db:account_statement_import_file.journal_dashboard_view_inherit
 msgid "<span>Import (OCA)</span>"
-msgstr "<span>Uvoz (OCA)</span>"
+msgstr "<span>Import izvoda</span>"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model_terms:ir.ui.view,arch_db:account_statement_import_file.account_statement_import_form
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid ""
 "Could not find any bank account with number '%(account_number)s' linked to "
@@ -47,17 +52,24 @@ msgid ""
 " the related bank journal. If the related bank journal doesn't exist yet, "
 "you should create a new one."
 msgstr ""
+"Nije pronađen bankovni račun '%(account_number)s' povezan sa partnerom "
+"'%(partner_name)s'. Potrebno je kreirati bankovni račun i postaviti ga na "
+"povezani dnevnik bankovnog računa. Ako dnevnik bankovnog računa još ne "
+"postoji, trebali bi ga kreirati."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model.fields,field_description:account_statement_import_file.field_account_statement_import__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model.fields,field_description:account_statement_import_file.field_account_statement_import__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model.fields,field_description:account_statement_import_file.field_account_statement_import__display_name
 msgid "Display Name"
@@ -66,182 +78,229 @@ msgstr "Prikazani naziv"
 #. module: account_statement_import_file
 #: model:ir.model.fields,help:account_statement_import_file.field_account_statement_import__statement_file
 msgid "Download bank statement files from your bank and upload them here."
-msgstr "Preuzmite datoteke bankovnog izvoda iz vaše banke i otpremite ih ovdje."
+msgstr ""
+"Preuzmite datoteke bankovnog izvoda iz vaše banke i otpremite ih ovdje."
 
 #. module: account_statement_import_file
 #: model:ir.model.fields,field_description:account_statement_import_file.field_account_statement_import__id
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.actions.act_window,name:account_statement_import_file.account_statement_import_action
+#, fuzzy
 msgid "Import Bank Statement File"
 msgstr "Stavka izvoda banke"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model,name:account_statement_import_file.model_account_statement_import
+#, fuzzy
 msgid "Import Bank Statement Files"
 msgstr "Stavka izvoda banke"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.ui.menu,name:account_statement_import_file.account_statement_import_menu
 msgid "Import Statement"
 msgstr "Uvoz izvoda"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-javascript
-#: code:addons/account_statement_import_file/static/src/account_statement_import_file/account_statement_import_file.xml:0
-#: model_terms:ir.ui.view,arch_db:account_statement_import_file.journal_dashboard_view_inherit
+#: code:addons/account_statement_import_file/static/src/account_statement_import_file/account_statement_import_file.xml
 #, python-format
 msgid "Import Statement (OCA)"
 msgstr "Uvoz izvoda (OCA)"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model_terms:ir.ui.view,arch_db:account_statement_import_file.account_statement_import_form
 msgid "Import and View"
 msgstr "Uvezi i pregledaj"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model,name:account_statement_import_file.model_account_journal
 msgid "Journal"
 msgstr "Dnevnik knjiženja"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model.fields,field_description:account_statement_import_file.field_account_statement_import____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model.fields,field_description:account_statement_import_file.field_account_statement_import__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model.fields,field_description:account_statement_import_file.field_account_statement_import__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid "Missing currency code in the bank statement file."
 msgstr "Nedostaje oznaka valute u datoteci bankovnog izvoda."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid "Missing payment_ref on a transaction."
 msgstr "Nedostaje referenca plaćanja (payment_ref) na transakciji."
 
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/models/account_journal.py:0
+#: code:addons/account_statement_import_file/models/account_journal.py
 #, python-format
 msgid "OCA Import"
 msgstr "OCA uvoz"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model.fields,field_description:account_statement_import_file.field_account_statement_import__statement_file
+#, fuzzy
 msgid "Statement File"
 msgstr "Stavka izvoda banke"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model:ir.model.fields,field_description:account_statement_import_file.field_account_statement_import__statement_filename
+#, fuzzy
 msgid "Statement Filename"
 msgstr "Stavka izvoda banke"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model_terms:ir.ui.view,arch_db:account_statement_import_file.account_statement_import_form
 msgid "Supported formats:"
 msgstr "Podržani formati:"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid "The Bank Accounting Account is not set on the journal '%s'."
 msgstr "Bankovni konto nije postavljen na dnevniku (%s)."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid ""
 "The bank account with number '%(account_number)s' exists in Odoo but it is "
 "not set on any bank journal. You should set it on the related bank journal. "
 "If the related bank journal doesn't exist yet, you should create a new one."
 msgstr ""
+"Bankovni račun sa brojem '%(account_number)s' postoji u Odoo-u ali nije "
+"postavljen niti na jednom dnevniku banke. Trebali biste ga postaviti na "
+"povezani bankovni dnevnik. Ako dnevnik još ne postoji, trebali biste ga "
+"kreirati."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid ""
 "The bank statement file uses currency '%s' but there is no such currency in "
 "Odoo."
 msgstr ""
+"Datoteka bankovnog izvoda sadrži valutu '%s' ali takva valuta ne postoji u "
+"Odoo."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid ""
 "The currency of the bank statement (%(currency_name)s) is not the same as "
 "the currency of the journal '%(journal_name)s' (%(journal_currency_name)s)."
 msgstr ""
+"Valuta izvoda (%(currency_name)s) nije ista kao i valuta postavljena na "
+"dnevniku '%(journal_name)s' (%(journal_currency_name)s)."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid ""
 "The format of this bank statement file doesn't contain the bank account "
 "number, so you must start the wizard from the right bank journal in the "
 "dashboard."
 msgstr ""
+"Format ovog bankovnog izvoda ne sadrži broj bankovnog računa, tako da "
+"čarobnjaka morate pokrenuti sa ispravnog dnevnika na nadzornoj ploči."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid ""
 "The journal found for the file (%(journal_match)s) is different from the "
 "selected journal (%(journal_selected)s)."
 msgstr ""
+"Pronađeni dnevnik za datoteku (%(journal_match)s) je različit od izabranog "
+"dnevnika (%(journal_selected)s)."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid "The parsing of the statement file returned an invalid result."
 msgstr "Obrada datoteke izvoda vratila je neispravan rezultat."
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid ""
 "This bank statement file format is not supported.\n"
 "Did you install the Odoo module to support this format?"
 msgstr ""
+"Ovaj format datoteke izvoda nije podržan.\n"
+"Jeste li instalirali Odoo modul koji podržava ovaj format?"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model_terms:ir.ui.view,arch_db:account_statement_import_file.account_statement_import_form
+#, fuzzy
 msgid "Upload Bank Statements"
 msgstr "Stavka izvoda banke"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #: model_terms:ir.ui.view,arch_db:account_statement_import_file.account_statement_import_form
+#, fuzzy
 msgid "Upload a bank statement file"
 msgstr "Stavka izvoda banke"
 
+# taken from hr.po
 #. module: account_statement_import_file
 #. odoo-python
-#: code:addons/account_statement_import_file/wizard/account_statement_import.py:0
+#: code:addons/account_statement_import_file/wizard/account_statement_import.py
 #, python-format
 msgid ""
 "You have already imported this file, or this file only contains already "
 "imported transactions."
 msgstr ""
+"Već ste uvezli ovu datoteku, ili ova datoteka sadrži već uvezene "
+"transakcije."

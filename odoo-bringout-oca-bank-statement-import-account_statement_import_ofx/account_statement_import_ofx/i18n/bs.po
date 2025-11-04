@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* account_bank_statement_import_ofx
+# * account_bank_statement_import_ofx
 #
 msgid ""
 msgstr ""
@@ -18,21 +18,29 @@ msgstr ""
 msgid "Import Bank Statement"
 msgstr "Uvezi bankovni izvod"
 
-#. module: account_bank_statement_import_ofx
-#: model:ir.model,name:account_bank_statement_import_ofx.model_account_journal
+#. module: account_statement_import_ofx
+#: model:ir.model,name:account_statement_import_ofx.model_account_journal
 msgid "Journal"
-msgstr "Vrsta naloga"
+msgstr "Dnevnik"
 
-#. module: account_bank_statement_import_ofx
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import_ofx.view_account_bank_statement_import_form
+#. module: account_statement_import_ofx
+#: model_terms:ir.ui.view,arch_db:account_statement_import_ofx.account_statement_import_form
 msgid "Open Financial Exchange (.OFX Money)"
 msgstr "Open Financial Exchange (.OFX Money)"
 
-#. module: account_bank_statement_import_ofx
-#: code:addons/account_bank_statement_import_ofx/wizard/account_bank_statement_import.py:85
+#. module: account_statement_import_ofx
+#: code:addons/account_statement_import_ofx/wizard/account_statement_import.py
 #, python-format
-msgid "The following problem occurred during import. The file might not be valid.\n"
+msgid ""
+"The following problem occurred during import. The file might not be valid.\n"
 "\n"
 " %s"
 msgstr ""
+"Sljedeći problem se dogodio tokom uvoza. Datoteka možda nije validna.\n"
+"\n"
+" %s"
 
+#. module: account_statement_import_ofx
+#: model:ir.model,name:account_statement_import_ofx.model_account_statement_import
+msgid "Import Bank Statement Files"
+msgstr "Uvezi datoteke bankovnog izvoda"

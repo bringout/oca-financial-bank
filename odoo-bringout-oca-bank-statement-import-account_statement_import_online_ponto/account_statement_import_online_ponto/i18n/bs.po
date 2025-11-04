@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "%d transactions present in response data"
 msgstr "%d transakcija prisutno u odgovoru"
@@ -27,21 +27,22 @@ msgstr "Datum izvršavanja"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "GET request on %(url)s"
 msgstr "GET zahtev na %(url)s"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "GET request to %(url)s with headers %(headers)s and params %(params)s"
-msgstr "GET zahtev za %(url)s sa zaglavljima %(headers)s i parametrima %(params)s"
+msgstr ""
+"GET zahtev za %(url)s sa zaglavljima %(headers)s i parametrima %(params)s"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "HTTP answer code %(response_code)s from Ponto"
 msgstr "HTTP kod odgovora %(response_code)s od Ponto"
@@ -58,14 +59,14 @@ msgstr "Prijava"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py
 #, python-format
 msgid "No lines were retrieved from Ponto"
 msgstr "Nijedan red nije preuzet od Ponto"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "No transactions where found in data %(data)s"
 msgstr "Nijedna transakcija nije pronađena u podacima %(data)s"
@@ -77,31 +78,32 @@ msgstr "Online dobavljač bankovnih izvoda"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "POST request on %(url)s"
 msgstr "POST zahtev na %(url)s"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "Please fill login and key."
 msgstr "Molimo unesite login i ključ."
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "Ponto : no token"
 msgstr "Ponto : nema tokena"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "Ponto : wrong configuration, account {account} not found in {data}"
-msgstr "Ponto : pogrešna konfiguracija, račun {account} nije pronađen u {data}"
+msgstr ""
+"Ponto : pogrešna konfiguracija, račun {account} nije pronađen u {data}"
 
 #. module: account_statement_import_online_ponto
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
@@ -120,19 +122,21 @@ msgstr "Ponto poslednji identifikator"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py
 #, python-format
 msgid "Ponto obtain all new statement data for journal %s"
 msgstr "Ponto preuzmi sve nove podatke izvoda za dnevnik %s"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py
 #, python-format
 msgid ""
 "Ponto obtain statement data for journal %(journal)s from %(date_since)s to "
 "%(date_until)s"
 msgstr ""
+"Ponto dobavljanje podataka izvoda za dnevnik %(journal)s od %(date_since)s "
+"do %(date_until)s"
 
 #. module: account_statement_import_online_ponto
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
@@ -145,17 +149,19 @@ msgid ""
 "Select the Ponto date field that will be used for the Odoo bank statement "
 "line date."
 msgstr ""
+"Izaberite Ponto polje datuma koje će biti korišteno za datum linije Odoo "
+"bankovnog izvoda."
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py
 #, python-format
 msgid "Server returned status code {response_code}: {response_text}"
 msgstr "Server je vratio kod statusa {response_code}: {response_text}"
 
 #. module: account_statement_import_online_ponto
 #. odoo-python
-#: code:addons/account_statement_import_online_ponto/tests/test_account_statement_import_online_ponto.py:0
+#: code:addons/account_statement_import_online_ponto/tests/test_account_statement_import_online_ponto.py
 #, python-format
 msgid "Statement contains transactions: %s"
 msgstr "Izvod sadrži transakcije: %s"

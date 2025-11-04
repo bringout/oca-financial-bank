@@ -15,13 +15,15 @@ msgstr ""
 
 #. module: account_statement_import_qif
 #. odoo-python
-#: code:addons/account_statement_import_qif/wizards/account_statement_import_qif.py:0
+#: code:addons/account_statement_import_qif/wizards/account_statement_import_qif.py
 #, python-format
 msgid "Could not decipher the QIF file."
 msgstr "Nije moguće dešifrovati QIF datoteku."
 
+# taken from hr.po
 #. module: account_statement_import_qif
 #: model:ir.model,name:account_statement_import_qif.model_account_statement_import
+#, fuzzy
 msgid "Import Bank Statement Files"
 msgstr "Uvoz bankovnog izvoda"
 
@@ -37,7 +39,7 @@ msgstr "Quicken format razmene (.qif)"
 
 #. module: account_statement_import_qif
 #. odoo-python
-#: code:addons/account_statement_import_qif/wizards/account_statement_import_qif.py:0
+#: code:addons/account_statement_import_qif/wizards/account_statement_import_qif.py
 #, python-format
 msgid "This file is either not a bank statement or is not correctly formed."
 msgstr "Ova datoteka ili nije bankovni izvod ili nije ispravno formatirana."
