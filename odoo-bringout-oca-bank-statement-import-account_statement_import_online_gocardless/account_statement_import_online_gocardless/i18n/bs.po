@@ -118,17 +118,17 @@ msgstr "Neispravan kod zemlje ili zemlja nije podržana."
 #. module: account_statement_import_online_gocardless
 #: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider_existing____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_statement_import_online_gocardless
 #: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider_existing__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_statement_import_online_gocardless
 #: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider_existing__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_statement_import_online_gocardless
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_gocardless.view_online_bank_statement_provider_existing_form

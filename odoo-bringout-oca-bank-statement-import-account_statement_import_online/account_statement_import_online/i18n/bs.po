@@ -23,7 +23,7 @@ msgstr "%(number)s %(type)s"
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna akcija"
+msgstr "Potrebna radnja"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__active
@@ -85,7 +85,7 @@ msgstr "Zatvori"
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__company_id
@@ -157,12 +157,12 @@ msgstr "Dohvati i prikaži podatke transakcije (za potrebe debugiranja)"
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__message_follower_ids
 msgid "Followers"
-msgstr "Pratioci"
+msgstr "Pratitelji"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratitelji (partneri)"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_pull_wizard__date_since
@@ -236,17 +236,17 @@ msgstr "Ključ"
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__last_successful_run
@@ -266,7 +266,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr "Nepročitane poruke"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields.selection,name:account_statement_import_online.selection__online_bank_statement_provider__interval_type__minutes
@@ -532,7 +532,7 @@ msgstr "Korisničko ime"
 #. module: account_statement_import_online
 #: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Nepročitane poruke"
 
 #. module: account_statement_import_online
 #: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__website_message_ids

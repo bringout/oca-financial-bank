@@ -61,17 +61,17 @@ msgstr "Je Ofx pružalac"
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution__name
