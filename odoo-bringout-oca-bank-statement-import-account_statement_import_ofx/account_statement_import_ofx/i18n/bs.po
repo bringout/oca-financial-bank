@@ -26,10 +26,10 @@ msgstr "Dnevnik"
 #. module: account_statement_import_ofx
 #: model_terms:ir.ui.view,arch_db:account_statement_import_ofx.account_statement_import_form
 msgid "Open Financial Exchange (.OFX Money)"
-msgstr "Open Financial Exchange (.OFX Money)"
+msgstr ""
 
 #. module: account_statement_import_ofx
-#: code:addons/account_statement_import_ofx/wizard/account_statement_import.py
+#: code:addons/account_statement_import_ofx/wizard/account_statement_import.py:0
 #, python-format
 msgid ""
 "The following problem occurred during import. The file might not be valid.\n"

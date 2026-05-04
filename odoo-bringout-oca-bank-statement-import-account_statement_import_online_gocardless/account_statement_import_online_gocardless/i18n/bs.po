@@ -26,7 +26,7 @@ msgstr ""
 
 #. module: account_statement_import_online_gocardless
 #. odoo-javascript
-#: code:addons/account_statement_import_online_gocardless/static/src/xml/select_bank_widget.xml
+#: code:addons/account_statement_import_online_gocardless/static/src/xml/select_bank_widget.xml:0
 #, python-format
 msgid "Available countries:"
 msgstr "Dostupne zemlje:"
@@ -44,11 +44,11 @@ msgstr "Kreirano"
 #. module: account_statement_import_online_gocardless
 #: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider_existing__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_statement_import_online_gocardless
 #. odoo-python
-#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
 #, python-format
 msgid "Existing link"
 msgstr "Postojeća veza"
@@ -56,7 +56,7 @@ msgstr "Postojeća veza"
 #. module: account_statement_import_online_gocardless
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_gocardless.online_bank_statement_provider_form
 msgid "GoCardless"
-msgstr "GoCardless"
+msgstr ""
 
 #. module: account_statement_import_online_gocardless
 #: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider__gocardless_account_id
@@ -110,7 +110,7 @@ msgstr "ID"
 
 #. module: account_statement_import_online_gocardless
 #. odoo-python
-#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
 #, python-format
 msgid "Incorrect country code or country not supported."
 msgstr "Neispravan kod zemlje ili zemlja nije podržana."
@@ -118,7 +118,7 @@ msgstr "Neispravan kod zemlje ili zemlja nije podržana."
 #. module: account_statement_import_online_gocardless
 #: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider_existing____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_statement_import_online_gocardless
 #: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider_existing__write_uid
@@ -157,7 +157,7 @@ msgstr "Ponovo koristi postojeće"
 
 #. module: account_statement_import_online_gocardless
 #. odoo-javascript
-#: code:addons/account_statement_import_online_gocardless/static/src/xml/select_bank_widget.xml
+#: code:addons/account_statement_import_online_gocardless/static/src/xml/select_bank_widget.xml:0
 #, python-format
 msgid "Search..."
 msgstr "Pretraži..."
@@ -179,14 +179,14 @@ msgstr "Odaberi identifikator bankovnog računa"
 
 #. module: account_statement_import_online_gocardless
 #. odoo-python
-#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
 #, python-format
 msgid "Select Bank of your Account"
 msgstr "Odaberi banku vašeg računa"
 
 #. module: account_statement_import_online_gocardless
 #. odoo-javascript
-#: code:addons/account_statement_import_online_gocardless/static/src/xml/select_bank_widget.xml
+#: code:addons/account_statement_import_online_gocardless/static/src/xml/select_bank_widget.xml:0
 #, python-format
 msgid "Select Country to Filter"
 msgstr "Odaberi zemlju za filtriranje"
@@ -202,7 +202,7 @@ msgstr ""
 
 #. module: account_statement_import_online_gocardless
 #. odoo-python
-#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
 #, python-format
 msgid "To continue configure bank account on journal %s"
 msgstr "Za nastavak konfigurišite bankovni račun na dnevniku %s"
@@ -214,7 +214,7 @@ msgstr "Čarobnjak za ponovnu upotrebu postojećeg GoCardless pružaoca"
 
 #. module: account_statement_import_online_gocardless
 #. odoo-python
-#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
 #, python-format
 msgid ""
 "You should renew the authorization process with your bank institution for "
@@ -224,14 +224,14 @@ msgstr ""
 
 #. module: account_statement_import_online_gocardless
 #. odoo-python
-#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
 #, python-format
 msgid "Your account number %(iban_number)s is successfully attached."
 msgstr "Vaš broj računa %(iban_number)s je uspješno priložen."
 
 #. module: account_statement_import_online_gocardless
 #. odoo-python
-#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
 #, python-format
 msgid ""
 "Your account number %(iban_number)s it's not in the IBAN account numbers "

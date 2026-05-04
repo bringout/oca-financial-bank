@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution_line__account_id
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution_line__bankid
@@ -36,7 +36,7 @@ msgstr "Kreirano"
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution__id
@@ -61,7 +61,7 @@ msgstr "Je Ofx pružalac"
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution__write_uid
@@ -76,7 +76,7 @@ msgstr "Zadnje ažurirano"
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution__nickname
@@ -85,7 +85,7 @@ msgstr "Nadimak"
 
 #. module: account_statement_import_online_ofx
 #. odoo-python
-#: code:addons/account_statement_import_online_ofx/models/online_bank_statement_provider_ofx.py
+#: code:addons/account_statement_import_online_ofx/models/online_bank_statement_provider_ofx.py:0
 #, python-format
 msgid "OFX Data is not available"
 msgstr "OFX podaci nisu dostupni"
@@ -113,7 +113,7 @@ msgstr "Linija Ofx institucije"
 #. module: account_statement_import_online_ofx
 #: model:ir.model.fields,field_description:account_statement_import_online_ofx.field_ofx_institution__ofxhome_id
 msgid "Ofxhome"
-msgstr "Ofxhome"
+msgstr ""
 
 #. module: account_statement_import_online_ofx
 #: model:ir.model,name:account_statement_import_online_ofx.model_online_bank_statement_provider
@@ -137,7 +137,7 @@ msgstr "Davatelj"
 
 #. module: account_statement_import_online_ofx
 #. odoo-python
-#: code:addons/account_statement_import_online_ofx/models/online_bank_statement_provider_ofx.py
+#: code:addons/account_statement_import_online_ofx/models/online_bank_statement_provider_ofx.py:0
 #, python-format
 msgid ""
 "The following problem occurred during import.\n"

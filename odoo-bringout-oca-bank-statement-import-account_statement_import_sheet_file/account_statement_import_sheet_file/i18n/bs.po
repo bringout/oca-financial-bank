@@ -15,10 +15,10 @@ msgstr ""
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
 #, python-format
 msgid "%(code)s: %(filename)s"
-msgstr "%(code)s: %(filename)s"
+msgstr ""
 
 #. module: account_statement_import_sheet_file
 #: model_terms:ir.ui.view,arch_db:account_statement_import_sheet_file.account_statement_import_sheet_mapping_tree
@@ -47,7 +47,7 @@ msgstr "Apsolutna vrednost"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
 #, python-format
 msgid "Account: %s; "
 msgstr "Račun: %s; "
@@ -69,7 +69,7 @@ msgstr "Tip iznosa"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import.py:0
 #, python-format
 msgid "Bad file/mapping: "
 msgstr "Loša datoteka/mapiranje: "
@@ -111,7 +111,7 @@ msgstr "Parser tabele uvoza bankovnog izvoda"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
 #, python-format
 msgid "Bank: %s; "
 msgstr "Banka: %s; "
@@ -214,7 +214,7 @@ msgstr "Kolona opisa"
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__amount_type__distinct_credit_debit
@@ -309,12 +309,12 @@ msgstr "Japanski (Shift JIS)"
 #. module: account_statement_import_sheet_file
 #: model:ir.model,name:account_statement_import_sheet_file.model_account_journal
 msgid "Journal"
-msgstr "Vrsta naloga"
+msgstr "Dnevnik"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__write_uid
@@ -328,7 +328,7 @@ msgstr "Zadnje ažurirano"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
 #, python-format
 msgid "N/A"
 msgstr "N/D"
@@ -336,11 +336,11 @@ msgstr "N/D"
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
 #, python-format
 msgid "No valid encoding was found for the attached file"
 msgstr "Nije pronađeno važeće kodiranje za priloženu datoteku"
@@ -357,7 +357,7 @@ msgstr "Kolona pomaka"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py:0
 #, python-format
 msgid "Offsets cannot be negative"
 msgstr "Pomaci ne mogu biti negativni"
@@ -476,7 +476,7 @@ msgstr "Tradicionalni kineski (big5)"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_parser.py:0
 #, python-format
 msgid "Transaction ID: %s; "
 msgstr "ID transakcije: %s; "
@@ -484,7 +484,7 @@ msgstr "ID transakcije: %s; "
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__file_encoding__utf-16
 msgid "UTF-16"
-msgstr "UTF-16"
+msgstr ""
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__file_encoding__utf-16-sig
@@ -494,7 +494,7 @@ msgstr "UTF-16 (sa BOM)"
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__file_encoding__utf-8
 msgid "UTF-8"
-msgstr "UTF-8"
+msgstr ""
 
 #. module: account_statement_import_sheet_file
 #: model:ir.model.fields.selection,name:account_statement_import_sheet_file.selection__account_statement_import_sheet_mapping__file_encoding__utf-8-sig
@@ -513,7 +513,7 @@ msgstr "Jedinstvena kolona ID transakcije"
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py:0
 #, python-format
 msgid "Use amount_column if you have set Amount type = 'Single value'"
 msgstr ""
@@ -522,7 +522,7 @@ msgstr ""
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py:0
 #, python-format
 msgid ""
 "Use amount_debit_column and amount_credit_column if you have set Amount type"
@@ -533,7 +533,7 @@ msgstr ""
 
 #. module: account_statement_import_sheet_file
 #. odoo-python
-#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py
+#: code:addons/account_statement_import_sheet_file/models/account_statement_import_sheet_mapping.py:0
 #, python-format
 msgid "Use debit_credit_column if you have set Amount type = 'Absolute value'"
 msgstr ""

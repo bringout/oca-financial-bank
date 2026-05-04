@@ -25,7 +25,7 @@ msgstr "Dodaj liniju balansa"
 
 #. module: account_statement_import_camt54
 #. odoo-python
-#: code:addons/account_statement_import_camt54/models/parser.py
+#: code:addons/account_statement_import_camt54/models/parser.py:0
 #, python-format
 msgid ""
 "Config parameter `isr_partner_ref` is wrong.\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #. module: account_statement_import_camt54
 #. odoo-python
-#: code:addons/account_statement_import_camt54/models/parser.py
+#: code:addons/account_statement_import_camt54/models/parser.py:0
 #, python-format
 msgid ""
 "Config parameter `isr_partner_ref` is wrong.\n"
@@ -68,4 +68,4 @@ msgstr "Uvoz bankovnog izvoda"
 #. module: account_statement_import_camt54
 #: model:ir.model,name:account_statement_import_camt54.model_account_journal
 msgid "Journal"
-msgstr "Vrsta naloga"
+msgstr "Dnevnik"

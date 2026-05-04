@@ -26,7 +26,7 @@ msgstr "Uvoz bankovnog izvoda"
 #. module: account_statement_import_ofx_by_acctid
 #: model:ir.model.fields,field_description:account_statement_import_ofx_by_acctid.field_account_setup_bank_manual_config__acctid
 msgid "OFX ACCTID"
-msgstr "OFX ACCTID"
+msgstr ""
 
 #. module: account_statement_import_ofx_by_acctid
 #: model:ir.model.fields,field_description:account_statement_import_ofx_by_acctid.field_account_setup_bank_manual_config__sanitized_acctid
@@ -46,7 +46,7 @@ msgstr ""
 
 #. module: account_statement_import_ofx_by_acctid
 #. odoo-python
-#: code:addons/account_statement_import_ofx_by_acctid/wizards/account_statement_import.py
+#: code:addons/account_statement_import_ofx_by_acctid/wizards/account_statement_import.py:0
 #, python-format
 msgid ""
 "The journal found for the file is not consistent with the selected journal. "
