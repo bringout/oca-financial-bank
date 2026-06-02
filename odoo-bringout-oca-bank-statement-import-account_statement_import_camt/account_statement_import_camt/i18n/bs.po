@@ -46,14 +46,14 @@ msgstr "Dodatne informacije transakcije"
 #: model:ir.model,name:account_statement_import_camt.model_account_bank_statement
 #, fuzzy
 msgid "Bank Statement"
-msgstr "Uvoz bankovnog izvoda"
+msgstr "Bankovni izvod"
 
 # taken from hr.po
 #. module: account_statement_import_camt
 #: model:ir.model,name:account_statement_import_camt.model_account_bank_statement_line
 #, fuzzy
 msgid "Bank Statement Line"
-msgstr "Uvoz bankovnog izvoda"
+msgstr "Stavka bankovnog izvoda"
 
 #. module: account_statement_import_camt
 #: model_terms:ir.ui.view,arch_db:account_statement_import_camt.account_statement_import_view
@@ -196,7 +196,7 @@ msgstr "Identifikacija transakcije"
 #: code:addons/account_statement_import_camt/models/parser.py:0
 #, python-format
 msgid "Transaction Type"
-msgstr "Tip transakcije"
+msgstr "Vrsta transakcije"
 
 #. module: account_statement_import_camt
 #. odoo-python
