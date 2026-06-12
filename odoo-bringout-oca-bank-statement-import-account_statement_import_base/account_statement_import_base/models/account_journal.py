@@ -24,10 +24,7 @@ class AccountJournal(models.Model):
             ["acc_number", "partner_id"],
         )
         for partner_bank in partner_banks:
-            sanitized_acc_number = self._sanitize_bank_account_number(
-                partner_bank["acc_number"]
-            )
-            speeddict["account_number"][sanitized_acc_number] = {
+            speeddict["account_number"][partner_bank["acc_number"]] = {
                 "partner_id": partner_bank["partner_id"][0],
                 "partner_bank_id": partner_bank["id"],
             }
@@ -57,14 +54,12 @@ class AccountJournal(models.Model):
         self, st_line_vals, account_number
     ):
         self.ensure_one()
-        if st_line_vals.get("unique_import_id"):
+        unique_import_id = st_line_vals.get("unique_import_id")
+        if unique_import_id:
             sanitized_acc_number = self._sanitize_bank_account_number(account_number)
             st_line_vals["unique_import_id"] = (
-                (sanitized_acc_number and sanitized_acc_number + "-" or "")
-                + str(self.id)
-                + "-"
-                + st_line_vals["unique_import_id"]
-            )
+                f"{sanitized_acc_number}-" if sanitized_acc_number else ""
+            ) + f"{self.id}-{unique_import_id}"
 
     @api.model
     def _sanitize_bank_account_number(self, account_number):
